@@ -1,9 +1,9 @@
-<details open>
-  <summary><h1>RAG-Based-Chatbot-for-Private-Knowledge-Base-Querying</h1></summary>
+<p align="center"> <h1>RAG-Based-Chatbot-for-Private-Knowledge-Base-Querying</h1></p>
 
 <p align="center"> The RAG-Based Chatbot for Private Knowledge Base Querying is a system designed to efficiently retrieve relevant information from a private knowledge base in response to user queries. RAG, short for Retrieve and Generate, is a framework that combines retrieval-based and generation-based methods for natural language processing tasks. This chatbot utilizes the RAG framework to provide accurate and contextually relevant answers to user questions within a private knowledge base.</p>
 
-<h3>The system operates through the following steps:</h3>
+<details open>
+  <summary><h2>Operation steps:</h2></summary>
 
 - Text Corpus Chunking: The entire knowledge base is divided into manageable chunks, each representing a distinct piece of context available for querying. These chunks may comprise various data sources, such as documentation in Confluence and PDF reports.
 
