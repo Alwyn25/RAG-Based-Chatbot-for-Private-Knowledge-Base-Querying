@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support Chat Widget</title>
+    <link rel="stylesheet" href="chat_widget.css">
+</head>
+<body>
+    <!-- Demo page for testing the chat widget -->
+    <div class="demo-page">
+        <header>
+            <h1>Welcome to Our Website</h1>
+            <p>This is a demo page showing how the chat widget integrates with your website.</p>
+        </header>
+        
+        <main>
+            <section>
+                <h2>About Our Service</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </section>
+            
+            <section>
+                <h2>Need Help?</h2>
+                <p>Our AI-powered customer support chatbot is here to help you 24/7. Click the chat icon in the bottom-right corner to get started!</p>
+                <ul>
+                    <li>✅ Instant responses</li>
+                    <li>✅ Multi-language support (English & Arabic)</li>
+                    <li>✅ Smart document search</li>
+                    <li>✅ Human escalation when needed</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <!-- Chat Widget -->
+    <div id="chat-widget" class="chat-widget">
+        <!-- Chat Toggle Button -->
+        <div id="chat-toggle" class="chat-toggle">
+            <i class="chat-icon">💬</i>
+            <div class="chat-badge" id="chat-badge" style="display: none;">1</div>
+        </div>
+
+        <!-- Chat Window -->
+        <div id="chat-window" class="chat-window">
+            <!-- Chat Header -->
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-avatar">🤖</div>
+                    <div class="chat-title">
+                        <h4>Customer Support</h4>
+                        <span class="chat-status">Online</span>
+                    </div>
+                </div>
+                <div class="chat-controls">
+                    <button id="language-toggle" class="language-toggle" title="Switch Language">EN</button>
+                    <button id="chat-minimize" class="chat-minimize">−</button>
+                </div>
+            </div>
+
+            <!-- Chat Messages -->
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-avatar">🤖</div>
+                    <div class="message-content">
+                        <div class="message-text">
+                            <span id="welcome-message">Hello! I'm your AI assistant. How can I help you today?</span>
+                        </div>
+                        <div class="message-time">Just now</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Input -->
+            <div class="chat-input-container">
+                <div class="chat-input-wrapper">
+                    <input type="text" id="chat-input" placeholder="Type your message..." maxlength="500">
+                    <button id="chat-send" class="chat-send-btn">
+                        <span>Send</span>
+                    </button>
+                </div>
+                <div class="chat-input-footer">
+                    <span class="typing-indicator" id="typing-indicator" style="display: none;">
+                        AI is typing<span class="dots">...</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="feedback-modal" style="display: none;">
+        <div class="feedback-content">
+            <h4>Rate this response</h4>
+            <div class="feedback-buttons">
+                <button class="feedback-btn like-btn" data-feedback="like">
+                    👍 Helpful
+                </button>
+                <button class="feedback-btn dislike-btn" data-feedback="dislike">
+                    👎 Not Helpful
+                </button>
+            </div>
+            <textarea id="feedback-comment" placeholder="Optional: Add a comment (max 200 characters)" maxlength="200"></textarea>
+            <div class="feedback-actions">
+                <button id="feedback-submit" class="feedback-submit">Submit</button>
+                <button id="feedback-skip" class="feedback-skip">Skip</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="chat_widget.js"></script>
+</body>
+</html>

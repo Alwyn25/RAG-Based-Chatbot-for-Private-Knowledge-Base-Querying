@@ -1,0 +1,22 @@
+{
+  "556bf7d99129e33f153879f9ed65e82f": {
+    "filename": "sample_faq.md",
+    "file_path": "input/sample_faq.md",
+    "file_hash": "556bf7d99129e33f153879f9ed65e82f",
+    "file_type": ".md",
+    "file_size": 3486,
+    "chunk_count": 5,
+    "indexed_at": "2025-07-23T09:07:27.180258",
+    "status": "indexed"
+  },
+  "eaf86004424151de7038f8a5da2abdd0": {
+    "filename": "troubleshooting.txt",
+    "file_path": "input/troubleshooting.txt",
+    "file_hash": "eaf86004424151de7038f8a5da2abdd0",
+    "file_type": ".txt",
+    "file_size": 3891,
+    "chunk_count": 5,
+    "indexed_at": "2025-07-23T09:07:27.435444",
+    "status": "indexed"
+  }
+}

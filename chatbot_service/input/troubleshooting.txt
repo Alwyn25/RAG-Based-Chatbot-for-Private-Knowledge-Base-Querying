@@ -1,0 +1,137 @@
+TROUBLESHOOTING GUIDE
+
+Common Issues and Solutions
+
+LOGIN PROBLEMS
+Problem: Cannot log in to account
+Solution: 
+- Check that your email and password are correct
+- Ensure caps lock is off
+- Try resetting your password
+- Clear browser cookies and cache
+- Try incognito/private browsing mode
+
+Problem: Account locked after multiple failed attempts
+Solution:
+- Wait 15 minutes before trying again
+- Use the "Unlock Account" link sent to your email
+- Contact support if still unable to access
+
+APP CRASHES
+Problem: Mobile app crashes on startup
+Solution:
+- Force close the app completely
+- Restart your phone
+- Update the app to latest version
+- Free up storage space (need at least 1GB free)
+- Reinstall the app if problem persists
+
+Problem: Web app freezes or becomes unresponsive
+Solution:
+- Refresh the page
+- Clear browser cache and cookies
+- Disable browser extensions temporarily
+- Try a different browser
+- Check internet connection stability
+
+SYNC ISSUES
+Problem: Data not syncing between devices
+Solution:
+- Ensure you're logged into the same account on all devices
+- Check internet connection on all devices
+- Force sync by logging out and back in
+- Contact support if data appears to be lost
+
+PAYMENT ISSUES
+Problem: Payment declined
+Solution:
+- Verify card details are correct
+- Check with your bank for any blocks
+- Ensure sufficient funds/credit available
+- Try a different payment method
+- Contact our billing team for assistance
+
+Problem: Charged twice for same transaction
+Solution:
+- Check if one charge is pending (will reverse automatically)
+- Wait 3-5 business days for pending charges to resolve
+- Contact billing support with transaction details
+- Keep receipts for reference
+
+PERFORMANCE ISSUES
+Problem: Slow loading times
+Solution:
+- Check internet speed (minimum 5 Mbps recommended)
+- Close other apps/tabs using bandwidth
+- Try connecting to different WiFi network
+- Use wired connection instead of WiFi if possible
+- Contact ISP if internet issues persist
+
+Problem: Features not working properly
+Solution:
+- Log out and log back in
+- Clear app cache (mobile) or browser cache (web)
+- Disable ad blockers temporarily
+- Update to latest app/browser version
+- Report specific feature issues to support
+
+EMAIL ISSUES
+Problem: Not receiving emails from us
+Solution:
+- Check spam/junk folder
+- Add our domain to your safe senders list
+- Verify email address in account settings is correct
+- Check if email box is full
+- Contact email provider about delivery issues
+
+MOBILE SPECIFIC ISSUES
+Problem: Push notifications not working
+Solution:
+- Check notification settings in phone settings
+- Ensure app has notification permissions
+- Check Do Not Disturb is not enabled
+- Restart the app
+- Reinstall if necessary
+
+Problem: App uses too much battery
+Solution:
+- Close app when not in use
+- Disable background app refresh
+- Lower screen brightness
+- Update to latest app version
+- Check for rogue processes in phone settings
+
+BROWSER SPECIFIC ISSUES
+Problem: Features not working in Safari
+Solution:
+- Enable JavaScript in Safari settings
+- Disable content blockers temporarily
+- Try Safari in private browsing mode
+- Update Safari to latest version
+- Use Chrome or Firefox as alternative
+
+ADVANCED TROUBLESHOOTING
+If basic solutions don't work:
+
+1. Check system requirements:
+   - iOS 12+ or Android 8+
+   - 2GB RAM minimum
+   - Modern browser (released within last 2 years)
+
+2. Network diagnostics:
+   - Test on different network (mobile data vs WiFi)
+   - Try VPN if available
+   - Check firewall settings
+
+3. Complete reset:
+   - Log out of all devices
+   - Clear all app data/browser data
+   - Reinstall app or use different browser
+   - Log back in
+
+Contact support if none of these solutions work. Include:
+- Device type and operating system version
+- Browser version (if using web app)
+- Exact error messages
+- Steps you've already tried
+- When the problem first started
